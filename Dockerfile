@@ -13,5 +13,5 @@ RUN curl -fsSLO https://download.docker.com/linux/static/stable/x86_64/docker-${
 RUN pip install awscli
 RUN apt-get install build-essential
 
-RUN curl --silent --location https://deb.nodesource.com/setup_8.x | sudo bash -
+RUN curl --silent --location https://deb.nodesource.com/setup_8.x | bash -
 RUN apt-get install --yes nodejs
